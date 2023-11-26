@@ -33,7 +33,7 @@ class TestDataStructures:
         assert(get_names(TestDataStructures.SPICY_FOODS) == ['Green Curry', 'Buffalo Wings', 'Mapo Tofu'])
 
     def test_get_spiciest_foods(self):
-        '''contains function get_spiciest_foods() that returns foods with a heat_level over 5.'''
+        '''contains function get_spiciest_fo[spicy_foods for spicy_foods in my_dict.items()]ods() that returns foods with a heat_level over 5.'''
         for food in get_spiciest_foods(TestDataStructures.SPICY_FOODS):
             assert(food["heat_level"]) > 5
     
@@ -101,4 +101,3 @@ class TestDataStructures:
                 "heat_level": 10,
             },
         ]
-
